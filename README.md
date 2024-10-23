@@ -1,24 +1,32 @@
 # LaTeX starter
 A quick starter with some examples for LaTeX.
 
-Compile after changes:
+## Compile
+Compile the document with the following command:
 ```bash
-pdflatex doc.tex
+sh compile.sh
 ```
+This contains the below commands:
 
-Compile for Table of Contents:
-```bash
-pdflatex doc.tex
-pdflatex doc.tex
-```
+1. Compile after changes:
+    ```bash
+    pdflatex doc.tex
+    ```
 
-Compile for Bibliography:
-```bash
-pdflatex doc.tex
-bibtex doc
-pdflatex doc.tex
-pdflatex doc.tex
-```
+2. Compile for Table of Contents:
+    ```bash
+    pdflatex doc.tex
+    pdflatex doc.tex
+    ```
+
+3. Compile for Bibliography:
+    ```bash
+    pdflatex doc.tex
+    bibtex doc
+    pdflatex doc.tex
+    pdflatex doc.tex
+    ```
 
 ## Helpful links
 - https://www.overleaf.com/learn
+
